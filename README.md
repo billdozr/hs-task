@@ -36,6 +36,7 @@ To find all tasks (currently TODO tasks only) in python source files and then ou
 > task-find -R -f .py ~/Development/python/projects/ | task-crunch
 
 Result
+
     @TODO(bug, mlcomp, #alen, #bob): File path iteration fails on deep recursion | added a test case | H, 6 | "/Users/alen/Development/python/billdozr_env/projects/BilldozrML/src/parser/load_data.py", (14,1), Wed Jul 11 13:23:27 SAST 2012
     ...
 
@@ -43,6 +44,7 @@ And for html output run
 > task-find -R -f .py ~/Development/python/projects/ | task-crunch -o html > /tmp/task-sample.html
 
 Result
+
 		List of Todo Task's:
 
 			Subject: File path iteration fails on deep recursion
