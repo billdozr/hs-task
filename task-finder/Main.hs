@@ -5,9 +5,9 @@ import Data.List (intercalate)
 import Data.List.Split (splitOn)
 import System.FilePath (takeFileName, takeExtension)
 import Data.Char (toLower)
-import Text.Todo.Parser.Parse (parseCmdLns)
-import Text.Todo.Parser.Types (todoTagStr)
-import Text.Todo.Finder.Find
+import Text.Task.Parser.Parse (parseCmdLns)
+import Text.Task.Parser.Types (todoTagStr)
+import Text.Task.Finder.Find
 
 main :: IO ()
 main = do 
@@ -47,7 +47,7 @@ loadArgs badArgs = error $ "Invalid argument list: "
                          ++ intercalate ", " badArgs ++ "\n\n" ++ usage
 fileXts = splitOn ","
 
-header = "Usage: todo-find [OPTION...] toplevel_dir|file_path"
+header = "\nUsage: task-find [OPTION...] toplevel_dir|file_path"
 options = "\t-R\tRecurse sub-directories\n" 
             ++ "\n\t-f\tFilter by file extention\n" 
             ++ "\n\t-h\tThis usage info\n"

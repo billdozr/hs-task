@@ -1,15 +1,15 @@
-Name:          todo-finder
+Name:          task-finder
 Version:       0.1
-Synopsis:      Finder program that allows recursive searching of raw '@TODO' tags in source files
+Synopsis:      Specialized finder program for recursive searching of raw task tags in source files
 Description:
-  Finder program that allows recursive searching of raw '@TODO' tags in source files.
-  It provides necessary input for the todo-parser library.
+  Specialized finder program for recursive searching of raw task tags in source files.
+  It provides necessary input for the task-parser library.
 Author:        Alen Ribic
 Maintainer:    alen.ribic@gmail.com
 Build-type:    Simple
 Cabal-Version: >= 1.2
 
-Executable todo-find
+Executable task-find
   main-is: Main.hs
 
   Build-Depends:   base >= 4,
@@ -17,14 +17,14 @@ Executable todo-find
                    old-time,
                    directory,
                    split >= 0.1.2,
-                   todo-parser >= 0.1
+                   task-parser >= 0.1
 
 library
-  Exposed-Modules: Text.Todo.Finder.Find
+  Exposed-Modules: Text.Task.Finder.Find
 
   Build-Depends:   base >= 4,
                    filepath,
                    old-time,
                    directory,
                    split >= 0.1.2,
-                   todo-parser >= 0.1
+                   task-parser >= 0.1

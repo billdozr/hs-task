@@ -1,4 +1,4 @@
-module Text.Todo.Cruncher.Output
+module Text.Task.Cruncher.Output
        (
          showPri
        ) where

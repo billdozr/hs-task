@@ -1,4 +1,4 @@
-module Text.Todo.Finder.Find
+module Text.Task.Finder.Find
        (
          Info(..), Iterate(..)
        , Iterator, Predicate

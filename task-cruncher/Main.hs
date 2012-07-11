@@ -3,11 +3,11 @@ module Main where
 import System.Environment (getArgs)
 import Data.List (lookup, intercalate)
 import Data.Maybe (fromJust)
-import Text.Todo.Parser.Parse (parseTodoEntry, parseMeta)
-import qualified Text.Todo.Parser.Types as T
-import qualified Text.Todo.Cruncher.Plain as P
-import qualified Text.Todo.Cruncher.Html as H
-import qualified Text.Todo.Cruncher.Xml as X
+import Text.Task.Parser.Parse (parseTodoEntry, parseMeta)
+import qualified Text.Task.Parser.Types as T
+import qualified Text.Task.Cruncher.Plain as P
+import qualified Text.Task.Cruncher.Html as H
+import qualified Text.Task.Cruncher.Xml as X
 
 main :: IO ()
 main = do
@@ -44,7 +44,7 @@ loadArgs badArgs _ =
     error $ "Invalid argument list: " 
               ++ intercalate ", " badArgs ++ "\n\n" ++ usage
 
-header = "Usage: todo-crunch [OPTION...] raw_todo"
+header = "\nUsage: task-crunch [OPTION...] raw_task"
 options = "\t-o\tOutput format (plain | html | xml)\n" 
             ++ "\n\t-h\tThis usage info\n"
 usage = header ++ "\n\n" ++ options

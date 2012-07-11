@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Text.Todo.Cruncher.Html 
+module Text.Task.Cruncher.Html 
     (
       renderEntries
     ) where
@@ -16,15 +16,15 @@ import Text.Blaze.Html5.Attributes
 import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html5.Attributes as A
 import qualified Data.ByteString.Lazy.Char8 as C
-import qualified Text.Todo.Parser.Types as T
-import Text.Todo.Cruncher.Output (showPri)
+import qualified Text.Task.Parser.Types as T
+import Text.Task.Cruncher.Output (showPri)
 
 allEntries :: [Either T.TagEntryError T.TodoEntry] -> Html a 
 allEntries ts = html $ do
         H.head $ do
-          H.title "Todo's"
+          H.title "Task's"
         body $ do
-          p "A list of Todo's:"
+          p "List of Todo Task's:"
           ul $ forM_ ts ((li ! A.style "padding-bottom:10px" ) . pprint)
   where
     pprint (Left err)    = showHtml err

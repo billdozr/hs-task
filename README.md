@@ -6,17 +6,17 @@ Code-level task manager
 usage:
 =============================
 
-task-crunch: Usage: task-crunch [OPTION...] raw_task
-
-	-o	Output format (plain | html | xml)
-
-	-h	This usage info
-
-task-find: Usage: task-find [OPTION...] toplevel_dir|file_path
+task-find [OPTION...] toplevel_dir|file_path
 
 	-R	Recurse sub-directories
 
 	-f	Filter by file extention
+
+	-h	This usage info
+
+task-crunch [OPTION...] raw_task
+
+	-o	Output format (plain | html | xml)
 
 	-h	This usage info
 

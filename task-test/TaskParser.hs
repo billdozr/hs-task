@@ -1,7 +1,7 @@
-module TodoParser where
+module TaskParser where
 
 import Text.CmDoc
-import Text.Todo.Parser.Parse
+import Text.Task.Parser.Parse
 import SetGen
 
 prop_idempotent (RawTag rt) = parse (parse rt) == parse rt

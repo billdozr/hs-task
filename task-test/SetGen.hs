@@ -5,7 +5,7 @@ import Control.Monad
 import Data.List (intercalate)
 import Test.QuickCheck
 
-import Text.Todo.Parser.Types (RawEntry, todoTagStr)
+import Text.Task.Parser.Types (RawEntry, todoTagStr)
 
 data RawTag     = RawTag RawEntry    deriving Show
 data Number     = Number String      deriving Show

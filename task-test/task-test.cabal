@@ -1,18 +1,18 @@
-Name:          todo-test
+Name:          task-test
 Version:       0.1
-Synopsis:      Test suite for the '@TODO' program
+Synopsis:      Test suite for the code-level task manager program
 Description:
-  Test suite for the '@TODO' program. Consists of test set generator, 
+  Test suite for the code-level task manager program. Consists of test set generator, 
   test properties and related.
 Author:        Alen Ribic
 Maintainer:    alen.ribic@gmail.com
 Build-type:    Simple
 Cabal-Version: >= 1.2
 
-Executable todo-test
+Executable task-test
   main-is: Run.hs
 
   Build-Depends:   base >= 4,
                    QuickCheck >= 2.1.0.3,
                    cmdoc >= 0.1,
-                   todo-parser >= 0.1
+                   task-parser >= 0.1

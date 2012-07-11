@@ -1,4 +1,4 @@
-module Text.Todo.Cruncher.Xml 
+module Text.Task.Cruncher.Xml 
     (
       renderEntries
     ) where
@@ -7,9 +7,9 @@ import Data.List
 import Text.XML.Light
 import Data.Time (formatTime)
 import System.Locale (TimeLocale(..), defaultTimeLocale)
-import Text.Todo.Parser.Parse
-import Text.Todo.Parser.Types as T
-import Text.Todo.Cruncher.Output (showPri)
+import Text.Task.Parser.Parse
+import Text.Task.Parser.Types as T
+import Text.Task.Cruncher.Output (showPri)
 
 xmlTodo :: T.TodoEntry -> Content
 xmlTodo (TodoEntry s a l u p t si) = Elem $ Element
