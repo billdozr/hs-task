@@ -1,9 +1,9 @@
 Name:          task-test
 Version:       0.1
-Synopsis:      Test suite for the code-level task manager program
+Synopsis:      Test suite for hs-task
 Description:
-  Test suite for the code-level task manager program. Consists of test set generator, 
-  test properties and related.
+  Test suite for hs-task. 
+  Consists of test set generator, test properties and related.
 Author:        Alen Ribic
 Maintainer:    alen.ribic@gmail.com
 Build-type:    Simple

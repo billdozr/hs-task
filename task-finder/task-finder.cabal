@@ -1,8 +1,8 @@
 Name:          task-finder
 Version:       0.1
-Synopsis:      Specialized finder program for recursive searching of raw task tags in source files
+Synopsis:      Specialized finder utility for recursive searching of raw task tags in source files
 Description:
-  Specialized finder program for recursive searching of raw task tags in source files.
+  Specialized finder utility for recursive searching of raw task tags in source files.
   It provides necessary input for the task-parser library.
 Author:        Alen Ribic
 Maintainer:    alen.ribic@gmail.com

@@ -2,7 +2,7 @@ Name:          task-cruncher
 Version:       0.1
 Synopsis:      Task-cruncher outputs parsed task tags
 Description:
-  The Task-cruncher outputs parsed task tags into human and system 
+  The task-cruncher outputs the parsed task tags into human and system 
   readable format(s)
 Author:        Alen Ribic
 Maintainer:    alen.ribic@gmail.com
