@@ -48,7 +48,7 @@ Here is an output with html
 
 The cool thing here is that we can use the xml supported output which then can be pulled into any Editor/IDE we can build a plugin for.
 
-**See:** the Eclipse plugin sample I built (very alpha). 
+**See:** the Eclipse [plugin sample](https://github.com/billdozr/com.alenribic.atodo) I built (very alpha). 
 
 license:
 =============================
