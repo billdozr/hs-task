@@ -1,9 +1,16 @@
 hs-task
 =======
 
-Code-level task manager
+`hs-task` is an in-code task management utility
 
-(Work in progress)
+Many IDEs and editors contain some form of built-in task management capabilities.
+Phylosophy behind `hs-task` is to provide a standlone, in-code, task management utility that can be interfaced via command-line, IDEs and editors.
+
+`hs-task` icludes the command-line utilities `task-find` and `task-crunch` (see below for usage).
+
+For IDE/editor integration, the Eclipse sample plugin can be located [here](https://github.com/billdozr/com.alenribic.atodo).
+
+**Note** the project is still in its infancy. Comments and feedback are more than welcome!
 
 usage:
 =============================
@@ -50,7 +57,7 @@ Here is an output with html
 
 The cool thing here is that we can use the xml supported output which then can be pulled into any Editor/IDE we can build a plugin for.
 
-**See:** the Eclipse [plugin sample](https://github.com/billdozr/com.alenribic.atodo) I built (very alpha). 
+**See:** the Eclipse [plugin sample](https://github.com/billdozr/com.alenribic.atodo) I built (barely alpha). 
 
 license:
 =============================
