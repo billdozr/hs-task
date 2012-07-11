@@ -1,18 +1,18 @@
-hs-todo
+hs-task
 =======
 
-Lightweight TODO code-level manager.
+Code-level task manager
 
 usage:
 =============================
 
-todo-crunch: Usage: todo-crunch [OPTION...] raw_todo
+task-crunch: Usage: task-crunch [OPTION...] raw_task
 
 	-o	Output format (plain | html | xml)
 
 	-h	This usage info
 
-todo-find: Usage: todo-find [OPTION...] toplevel_dir|file_path
+task-find: Usage: task-find [OPTION...] toplevel_dir|file_path
 
 	-R	Recurse sub-directories
 
@@ -23,16 +23,16 @@ todo-find: Usage: todo-find [OPTION...] toplevel_dir|file_path
 example:
 -----------------
 
-To find all TODO tasks in python source files and then output them as plain text
-> todo-find -R -f .py ~/Development/python/projects/ | todo-crunch
+To find all tasks (currently TODO tasks only) in python source files and then output them as plain text
+> task-find -R -f .py ~/Development/python/projects/ | task-crunch
 
     @TODO(bug, mlcomp, #alen, #bob): File path iteration fails on deep recursion | added a test case | H, 6 | "/Users/alen/Development/python/billdozr_env/projects/BilldozrML/src/parser/load_data.py", (14,1), Wed Jul 11 13:23:27 SAST 2012
     ...
 
 Here is an output with html
-> todo-find -R -f .py ~/Development/python/projects/ | todo-crunch -o html > /tmp/todo-sample.html
+> task-find -R -f .py ~/Development/python/projects/ | task-crunch -o html > /tmp/task-sample.html
 
-    A list of Todo's:
+    A list of Tasks's:
 
 		Subject: File path iteration fails on deep recursion
 		Action: added a test case

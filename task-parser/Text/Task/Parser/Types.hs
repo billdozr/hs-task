@@ -1,4 +1,4 @@
-module Text.Todo.Parser.Types 
+module Text.Task.Parser.Types 
        (
          TodoEntry(..)
        , MetaInfo(..)

@@ -1,4 +1,4 @@
-module Text.Todo.Parser.Parse
+module Text.Task.Parser.Parse
     (
       parseCmdLns
     , parseMeta
@@ -12,7 +12,7 @@ import Text.Parsec hiding (many, optional, (<|>))
 import qualified Text.Parsec.Token as T
 import qualified Text.Parsec.Language as L
 import Text.CmDoc
-import Text.Todo.Parser.Types
+import Text.Task.Parser.Types
 
 -- Bind all the used lexical parsers at toplevel
 lexer = T.makeTokenParser L.emptyDef

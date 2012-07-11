@@ -1,19 +1,19 @@
-Name:          todo-parser
+Name:          task-parser
 Version:       0.1
-Synopsis:      Todo-parser is a '@TODO' doc tags parser
+Synopsis:      Task-parser is a code-level task tag parser
 Description:
   Core overview:
-  Lightweight TODO code-level manager.
-  Todo-parser:
-  Source-code level '@TODO' doc tags parser
+  Code-level task manager
+  Task-parser:
+  Code-level task tag parser
 Author:        Alen Ribic
 Maintainer:    alen.ribic@gmail.com
 Build-type:    Simple
 Cabal-Version: >= 1.2
 
 library
-  Exposed-Modules: Text.Todo.Parser.Parse,
-                   Text.Todo.Parser.Types
+  Exposed-Modules: Text.Task.Parser.Parse,
+                   Text.Task.Parser.Types
 
   Build-Depends:   base >= 4,
                    parsec >= 3.0.0 && <=3.0.1,
