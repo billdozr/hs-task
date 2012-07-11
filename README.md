@@ -10,9 +10,9 @@ Phylosophy behind `hs-task` is to provide a standlone, in-code, task management 
 
 For IDE/editor integration, the Eclipse sample plugin can be located [here](https://github.com/billdozr/com.alenribic.atodo).
 
-**Note that the project is still in its infancy as it is missing some core parts such as the persistance mechanisam that will store the in-code task changes. 
+**Note that the project is still in its infancy as it is missing some core parts such as the persistence mechanism that will store the in-code task changes.**
 
-Comments, issue reports, patches and feedback are more than welcome!**
+**Comments, issue reports, patches and feedback are more than welcome!**
 
 usage:
 =============================
