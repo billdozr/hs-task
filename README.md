@@ -32,19 +32,19 @@ To find all tasks (currently TODO tasks only) in python source files and then ou
 Here is an output with html
 > task-find -R -f .py ~/Development/python/projects/ | task-crunch -o html > /tmp/task-sample.html
 
-    A list of Tasks's:
+		List of Todo Task's:
 
-		Subject: File path iteration fails on deep recursion
-		Action: added a test case
-		Label(s): bug, mlcomp
-		User(s): alen, bob
-		Priority: High
-		Time spent: 6
-		Source file: /Users/alen/Development/python/billdozr_env/projects/BilldozrML/src/parser/load_data.py
-		Line / Column: (14,1)
-		File modified: Wed Jul 11 13:23:27 SAST 2012
+			Subject: File path iteration fails on deep recursion
+			Action: added a test case
+			Label(s): bug, mlcomp
+			User(s): alen, bob
+			Priority: High
+			Time spent: 6
+			Source file: /Users/alen/Development/python/billdozr_env/projects/BilldozrML/src/parser/load_data.py
+			Line / Column: (14,1)
+			File modified: Wed Jul 11 13:23:27 SAST 2012
 
-		...
+			...
 
 The cool thing here is that we can use the xml supported output which then can be pulled into any Editor/IDE we can build a plugin for.
 
