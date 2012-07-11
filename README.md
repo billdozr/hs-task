@@ -34,7 +34,7 @@ task-crunch [OPTION...] raw_task
 example:
 -----------------
 
-To find all tasks (currently TODO tasks only) in python source files and then output them as plain text run
+To find all tasks in python source files and then output them as plain text run
 > task-find -R -f .py ~/Development/python/projects/ | task-crunch
 
 Result
@@ -65,6 +65,11 @@ The cool thing here is that we can use the xml supported output which then can b
 
 **See:** the Eclipse [plugin sample](https://github.com/billdozr/com.alenribic.atodo) I built (barely alpha). 
 
+limitations:
+=============================
+
+ * Currently, TODO tasks are the only tasks supported.
+ 
 license:
 =============================
 
