@@ -4,7 +4,7 @@ hs-task
 `hs-task` is an in-code task management utility.
 
 Many IDEs and editors contain some form of built-in task management capabilities.
-Phylosophy behind `hs-task` is to provide a standlone, in-code, task management utility that can be interfaced via command-line, IDEs and editors.
+Philosophy behind `hs-task` is to provide a standlone, in-code, task management utility that can be interfaced via command-line, IDEs and editors.
 
 `hs-task` icludes the command-line utilities `task-find` and `task-crunch` (see below for usage).
 
