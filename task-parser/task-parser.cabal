@@ -1,11 +1,11 @@
 Name:          task-parser
 Version:       0.1
-Synopsis:      Task-parser is a code-level task tag parser
+Synopsis:      Task-parser is a code-level task tags parser
 Description:
   Core overview:
   Code-level task manager
   Task-parser:
-  Code-level task tag parser
+  Code-level task tags parser
 Author:        Alen Ribic
 Maintainer:    alen.ribic@gmail.com
 Build-type:    Simple
