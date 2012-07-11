@@ -1,0 +1,22 @@
+Name:          cmdoc
+Version:       0.1
+Synopsis:      Generic lexical analyzer for source-code '@' prefixed doc tags
+Description:
+  CmDoc is a generic lexical analyzer for source-code '@' prefixed doc tags.
+Author:        Alen Ribic
+Maintainer:    alen.ribic@gmail.com
+Build-type:    Simple
+Cabal-Version: >= 1.2
+
+library
+  Exposed-Modules: Text.CmDoc,
+                   Text.CmDoc.Lexer,
+                   Text.CmDoc.Types,
+                   Text.CmDoc.String
+
+  Build-Depends:   base >= 4,
+                   directory,
+                   old-locale,
+                   time,
+                   parsec >= 3.0.0 && <=3.0.1,
+                   filepath
