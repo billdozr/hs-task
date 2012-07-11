@@ -3,6 +3,8 @@ hs-task
 
 Code-level task manager
 
+(Work in progress)
+
 usage:
 =============================
 
