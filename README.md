@@ -31,7 +31,7 @@ task-crunch [OPTION...] raw_task
 
 	-h	This usage info
 
-example:
+examples:
 -----------------
 
 To find all tasks in python source files and then output them as plain text run
@@ -69,7 +69,7 @@ limitations:
 =============================
 
  * Currently, TODO tasks are the only tasks supported.
- 
+
 license:
 =============================
 
