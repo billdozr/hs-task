@@ -1,7 +1,7 @@
 hs-task
 =======
 
-`hs-task` is an in-code task management utility
+`hs-task` is an in-code task management utility.
 
 Many IDEs and editors contain some form of built-in task management capabilities.
 Phylosophy behind `hs-task` is to provide a standlone, in-code, task management utility that can be interfaced via command-line, IDEs and editors.
@@ -32,15 +32,17 @@ task-crunch [OPTION...] raw_task
 example:
 -----------------
 
-To find all tasks (currently TODO tasks only) in python source files and then output them as plain text
+To find all tasks (currently TODO tasks only) in python source files and then output them as plain text run
 > task-find -R -f .py ~/Development/python/projects/ | task-crunch
 
+Result
     @TODO(bug, mlcomp, #alen, #bob): File path iteration fails on deep recursion | added a test case | H, 6 | "/Users/alen/Development/python/billdozr_env/projects/BilldozrML/src/parser/load_data.py", (14,1), Wed Jul 11 13:23:27 SAST 2012
     ...
 
-Here is an output with html
+And for html output run
 > task-find -R -f .py ~/Development/python/projects/ | task-crunch -o html > /tmp/task-sample.html
 
+Result
 		List of Todo Task's:
 
 			Subject: File path iteration fails on deep recursion
